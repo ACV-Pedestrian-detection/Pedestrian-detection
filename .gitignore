@@ -159,3 +159,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 datasets/*
+
+# Include yolov5 .gitignore
+!yolov5/.gitignore
+!yolov5/.dockerignore
+!yolov5/.gitattributes
+!yolov5/.github/
