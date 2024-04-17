@@ -1,0 +1,14 @@
+path: ../datasets/car-plate-detection # dataset root dir
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['License_Plate', 'cars', 'motorcyle', 'truck']
+
+roboflow:
+  workspace: plat-kendaraan
+  project: vehicle-and-license-plate
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate/dataset/3
